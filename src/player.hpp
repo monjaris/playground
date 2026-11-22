@@ -136,7 +136,7 @@ struct Player
             auto& b = bullets[i];
 
             b.loop();
-            
+
             if (b.hit_opponent) {
                 b.setSpeed(0);
                 static f32 delay = 100;

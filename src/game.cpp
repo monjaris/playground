@@ -6,11 +6,11 @@ void Game::start()
     players.reserve(1024);
     for (auto& p : players) p.start();
 
-    Parser conf;
-    if (conf.init("../.config"));
-    else {
-        log "Parser: failed to open the configuration!\n";
-    }
+    // Parser conf;
+    // if (conf.init("../.config"));
+    // else {
+    //     log "Parser: failed to open the configuration!\n";
+    // }
 }
 
 void Game::input()

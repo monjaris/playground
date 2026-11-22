@@ -34,7 +34,7 @@ using strview = std::string_view;
 namespace G {
     inline f32 dt;
     inline f32 fps;
-    inline uint32  max_fps = 99'999lu;
+    inline uint32  max_fps = 120lu;
 
     inline constexpr uint32 ini_win_w = 1280;
     inline constexpr uint32 ini_win_h = 720;

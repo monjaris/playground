@@ -3,7 +3,7 @@
 int main()
 {
     SetConfigFlags(
-        FLAG_WINDOW_RESIZABLE | FLAG_MSAA_4X_HINT
+        FLAG_WINDOW_RESIZABLE
     );
     InitWindow(G::ini_win_w, G::ini_win_h, G::win_title);
     SetTargetFPS(G::max_fps);
