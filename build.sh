@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 BINARY="main"
 BUILD_DIR="build"
@@ -8,13 +8,6 @@ BUILD_TYPE="Debug"
 
 PASSTHROUGH=()
 RUN_DEFAULT=true
-
-
-
-if [[ "$1" == "dev" ]]; then
-    xmake run
-    exit
-fi
 
 
 for arg in "$@"; do
